@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Radio widget</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="before">
+          <a href="#"><img src="img/before.png"/></a>
+        </div>
+        <div class="header-text">
+          <a href="#"><h1>STATIONS</h1></a>
+        </div>
+        <div class="off">
+          <a href="#"><img src="img/off.png"/></a>
+        </div>
+      </div>
+      <div class="list">
+        <ul>
+          <a href="#"><li>
+            <div class="name">Putin FM</div>
+            <div class="frequency">66,6</div>
+          </li></a>
+          <a href="#"><li>
+            <div class="name">Dribble FM</div>
+            <div class="frequency">101,2</div>
+          </li></a>
+          <a href="#"><li>
+            <div class="name">Doge FM</div>
+            <div class="frequency">99,4</div>
+          </li></a>
+          <a href="#"><li>
+            <div class="name">Ballads FM</div>
+            <div class="frequency">87,1</div>
+          </li></a>
+          <a href="#"><li>
+            <div class="name">Maximum FM</div>
+            <div class="frequency">142,2</div>
+          </li></a>
+        </ul>
+      </div>
+      <div class="bottom">
+        <div class="playing" style="display: none">
+          <p class="currently">CURRENTLY PLAYING</p>
+        </div>
+      </div>
+    </div>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      var x = false;
+      $("li").click(function(){
+        if (x === false) {
+          $(this).after('<div class="nowplaying"><a href="#"><div class="previous"><img src="img/previous.png" /></div></a><a href="#"><div class="station"><img src="img/radio.png"/></div></a><a href="#"><div class="next"><img src="img/next.png"/></div></a></div>');
+          $(".playing").fadeIn();
+          $(".currently").append(
+            $(this).find('.name').clone()
+          );
+          x = true;
+        }
+        else if (x === true) {
+          $(".nowplaying").remove();
+          $(".playing ").find('.name').remove();
+          $(".playing").fadeOut();
+          x = false;
+        }
+      });
+    });
+  </script>
+  </body>
+</html>

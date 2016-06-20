@@ -18,19 +18,18 @@ h1 {
 	 font-style: normal;
 }
 h2 {
-	border-bottom: 2px solid white;
+	border-bottom: 2px solid black;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	display: block;
 	width: 100px;
-	box-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
 }
 h3 {
 	font-family: "Lora";
 	font-size: 18px;
+	color: black;
 	font-weight: 700;
 	font-style: normal;
-	color: black;
 }
 p {
 	 text-transform: inherit;
@@ -60,4 +59,9 @@ a:active {
 }
 .thumbnail {
 	border: none;
+}
+
+img {
+	border: solid 1px;
+	max-height: 500px;
 }

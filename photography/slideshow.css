@@ -3,7 +3,9 @@ html, body {
 	width: 100%;
 	margin: 0 0 0 0;
 }
-
+.main{
+	width: 100%;
+}
 .row {
 	margin: 0 0 0 0;
 }
@@ -28,9 +30,9 @@ h2 {
 h3 {
 	font-family: "Lora";
 	font-size: 18px;
+	color: black;
 	font-weight: 700;
 	font-style: normal;
-	color: black;
 }
 p {
 	 text-transform: inherit;
@@ -43,21 +45,25 @@ p {
 a {
 	font-size: 16px;
 	font-family: "Lora";
-	text-decoration: none;
+	text-decoration: underline;
 	color: black;
 }
-.thumbnail .caption {
-	padding: 0px;
-}
 a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 	background-color: yellow;
 	color: black;
 }
 a:active {
-	text-decoration: none;
+	text-decoration: underline;
+	color: black;
+}
+a:visited {
+	text-decoration: underline;
 	color: black;
 }
 .thumbnail {
 	border: none;
+}
+.capition {
+	text-align: right;
 }

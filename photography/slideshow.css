@@ -40,13 +40,14 @@ p {
 	 font-family: "Lora";
 	 color: black;
 	 font-weight: 400;
-	 font-style: italic;
+	 font-style: normal;
 }
 a {
 	font-size: 16px;
 	font-family: "Lora";
 	text-decoration: underline;
 	color: black;
+	font-style: italic;
 }
 a:hover {
 	text-decoration: underline;
@@ -65,5 +66,17 @@ a:visited {
 	border: none;
 }
 .capition {
+	text-align: left;
+}
+.nav {
 	text-align: right;
+}
+.thumbnail p {
+	padding: 5px;
+	text-transform: inherit;
+	font-size: 16px;
+	font-family: "Lora";
+	color: black;
+	font-weight: 400;
+	font-style: italic;
 }

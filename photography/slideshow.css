@@ -36,18 +36,33 @@ h3 {
 }
 p {
 	 text-transform: inherit;
-	 font-size: 16px;
+	 font-size: 12px;
 	 font-family: "Lora";
 	 color: black;
 	 font-weight: 400;
 	 font-style: normal;
 }
 a {
-	font-size: 16px;
+	font-size: 12px;
 	font-family: "Lora";
 	text-decoration: underline;
 	color: black;
 	font-style: italic;
+}
+h1 a {
+	 text-transform: inherit;
+	 line-height: 32px;
+	 font-size: 36px;
+	 font-family: "Lora";
+	 color: black;
+	 font-weight: 700;
+	 font-style: normal;
+	text-decoration: none;
+}
+h1 a:hover {
+	text-decoration: none;
+	background-color: yellow;
+	color: black;
 }
 a:hover {
 	text-decoration: underline;
@@ -74,7 +89,7 @@ a:visited {
 .thumbnail p {
 	padding: 5px;
 	text-transform: inherit;
-	font-size: 16px;
+	font-size: 12px;
 	font-family: "Lora";
 	color: black;
 	font-weight: 400;

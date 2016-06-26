@@ -58,10 +58,11 @@ a:active {
 .main {
 	height: 100%;
 	background: url(../img/main.jpg);
-	background-color: white;
+	background-color: black;
 	background-size: 1600px;
 	background-position: center;
 	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 .main {

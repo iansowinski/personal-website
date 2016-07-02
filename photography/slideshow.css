@@ -43,7 +43,7 @@ p {
 	 font-style: normal;
 }
 a {
-	font-size: 12px;
+	font-size: 13px;
 	font-family: "Lora";
 	text-decoration: underline;
 	color: black;
@@ -80,18 +80,21 @@ a:visited {
 .thumbnail {
 	border: none;
 }
-.capition {
-	text-align: left;
+img {
+	max-height: 600px;
 }
-.nav {
-	text-align: right;
+.capition {
+	text-align: center;
 }
 .thumbnail p {
 	padding: 5px;
 	text-transform: inherit;
-	font-size: 12px;
+	font-size: 13px;
 	font-family: "Lora";
 	color: black;
 	font-weight: 400;
 	font-style: italic;
+}
+.nav {
+	text-align: right;
 }

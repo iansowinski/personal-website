@@ -3,17 +3,14 @@
     min-height: 50%;
     height: 50%;
   }
-    .f2 p {
-      background-color: #f4ee42;
-      color:black;
+    .f2 {
+      color: #f4ee42;
     }
-    .f3 p{
-      background-color: #42ebf4;
-      color:white;
+    .f3{
+      color: #42ebf4;
     }
-    .f4 p{
-      background-color: #f442c2;
-      color:white;
+    .f4{
+      color: #f442c2;
     }
 }
 @media (max-width : 768px) {

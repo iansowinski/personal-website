@@ -1,0 +1,71 @@
+<html>
+  <head> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+      body {
+        background: #fdf6e3;
+      }
+      p {
+        font-family: 'Inconsolata', monospace;
+        font-size: 18pt;
+      }
+      .quote {
+        margin-top: 50px;
+      }
+      .date {
+        text-align: right;
+        font-size: 10pt;
+      }
+      h1 {
+        font-family: 'Inconsolata';
+        font-size: 40pt;
+        font-weight: 700;
+        color: #d33682;
+      }
+    </style>
+    <div id="app" calss="container-fluid">
+      <div class="col-sm-6 col-sm-offset-2">
+      <h1>Quotebook</h1>
+      <div v-for="item in quotes" class="quote">
+        <p class=text>{{ item.text }}</p>
+        <p class="date">{{ item.date }}</p>
+      </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/vue@2.1.10/dist/vue.js"></script>
+<!--     <script>
+    function httpGetAsync(callback)
+    {
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function() { 
+        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+            callback(xmlHttp.responseText);
+    }
+    xmlHttp.open("GET", "http://localhost:8080/quotes/", true); // true for asynchronous 
+    xmlHttp.send(null);
+    }
+    console.log(xd());
+    </script> -->
+ <script>
+   function httpGetAsync(theUrl, callback){
+      var xmlHttp = new XMLHttpRequest();
+          xmlHttp.onreadystatechange = function() { 
+            if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+              callback(xmlHttp.responseText);
+          }
+          xmlHttp.open("GET", theUrl, true); // true for asynchronous 
+          xmlHttp.send(null);
+    }
+    httpGetAsync('http://localhost:8080/api/quotes/', function(item){app.quotes = JSON.parse('['+item+']'); console.log(app.quotes[0])});
+    var app = new Vue({
+      el: '#app',
+      data: {
+        quotes: null
+      }
+    });
+    </script>
+  </body>
+</html>

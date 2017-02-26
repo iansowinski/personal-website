@@ -1,5 +1,8 @@
 <html>
-  <head> 
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   </head>
   <body>
@@ -27,8 +30,8 @@
       }
     </style>
     <div id="app" calss="container-fluid">
-      <div class="col-sm-6 col-sm-offset-2">
-      <h1>Quotebook</h1>
+      <div class="col-sm-6 col-sm-offset-3">
+        <h1>Quotebook</h1>
       <div v-for="item in quotes" class="quote">
         <p class=text>{{ item.text }}</p>
         <p class="date">{{ item.date }}</p>
@@ -59,7 +62,7 @@
           xmlHttp.open("GET", theUrl, true); // true for asynchronous 
           xmlHttp.send(null);
     }
-    httpGetAsync('http://localhost:8080/api/quotes/', function(item){app.quotes = JSON.parse('['+item+']'); console.log(app.quotes[0])});
+    httpGetAsync('http://92.222.86.146:8080/api/quotes/', function(item){app.quotes = JSON.parse('['+item+']'); console.log(app.quotes[0])});
     var app = new Vue({
       el: '#app',
       data: {

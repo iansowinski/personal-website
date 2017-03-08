@@ -8,54 +8,81 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Ian Sowinski</title>
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!--styles.css-->
-    <link href="css/custom.css" rel="stylesheet">
+    <link href=" https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <!-- CZCIONKI -->
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700&subset=latin-ext" rel="stylesheet">
-
-
-
-
-    <!-- Social icons -->
-    <link rel="stylesheet" type="text/css" href="fontawesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700" rel="stylesheet">
   </head>
   <body>
+    <style>
+      p,li,h1,h2 {
+        font-family: 'Fira Mono', monospace;
+      }
+      h2 {
+        font-weight: 700;
+        font-size: 1em;
+      }
+      ul {
+        list-style-type: none;
+          padding-left: 1.5em;
+      }
+      a {
+        text-decoration: none;
+        border-bottom: 1pt solid black;
+        color: black;
+        background:transparent;
+        transition: all 1s ease;
+      }
+      a:hover {
+        color: black;
+        text-decoration: none;
+        background: yellow;
+        border-bottom: 1pt solid transparent;
+      }
+      a:active, a:visited {
+        text-decoration:none;
+          color:black;
+      }
+    </style>'
   <!-- H E A D E R -->
-  <div class="main">
-    <div class="row">
-      <div class="col-xs-8 col-sm-offset-1">
-
-          <h1 class="name">Ian <br />Sowinski</h1> <br />
-
-          <h2> </h2>
-
-          <p>Front-end developer,<br />
-          designer and documentary <br />
-          photographer <br /></p>
-
-          <h2> </h2>
-
-          <a href="web-design/index.html">web design</a><br />
-          <a href="photography/index.html">photography</a><br />
-          <a href="posters/index.html">posters</a>
-
-          <h2> </h2>
-
-
-          <a href="mailto:sowinj@gmail.com"><i class="fa fa-paper-plane fa-lg" aria-hidden="true"></i></a>
-          <a href="http://instagram.com/iansowinski/"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
-          <a href="http://github.com/iansowinski/"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
-          <a href="http://twitter.com/iansowinski/"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
-
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <h1>Ian Sowiński</h1>
+          <p>I am designer and software developer. Studyng Graphic Arts at University of Art in Poznań. I consider programming as the field of design. I feel quite comfortable with javascript, ruby and python.</p>
+          <p>Due to my interests in graphic design, front-end development is my key area of concern in IT.</p>
+          <p>I have a lot of expierience in teamwork and project planning thanks to my involvement in scouting movement.</p>
+          <p>After hours I'm documentary photographer.</p> 
+          <h2>contact</h2>
+        <ul>
+          <li><a target="_blank" href="https://twitter.com/iansowinski">@iansowinski</a> on twitter</li>
+          <li>sowinj@gmail.com</li>
+        </ul>
+        <h2>programming & web design</h2>
+        <ul>
+          <li><a target="_blank" href="https://github.com/iansowinski">@iansowinski</a> on github</li>
+          <li><a target="_blank" href="http://blekitna14.org">Błękitna Czternastka</a></li>
+          <li><a target="_blank" href="http://sowinski.art.pl">Ryszard Sowiński</a></li>
+          <li><a target="_blank" href="http://contentforces.com">ContentForces</a></li>
+        </ul>
+        <h2>photography</h2>
+        <ul>
+          <li>Endless Summer (2011-2015)</li>
+          <li>East meets East (2011-present)</li>
+          <li>Abstract (2016-present)</li>
+          <li>Presence (2012-present)</li>
+          <li>Gravity (2014-present)</li>
+        </ul>
+        <h2>education</h2>
+        <ul>
+          <li>2015-2018 BFA, Graphic Arts (University of Fine Arts in Poznań)</li>
+        </ul>
+        <h2>writings</h2>
+        <ul>
+          <li>Blog</li>
+          <li>Quotebook</li>
+        </ul>
+        </div>
       </div>
     </div>
-  </div>
-    <!--- JQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <!--- Javascript -->
-    <script src="js/bootstrap.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

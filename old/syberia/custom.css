@@ -1,0 +1,55 @@
+html, body {
+	height: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+/* CZCIONKI */
+
+img {
+	max-width: 80%;
+}
+
+body {
+	 font-size: 16px;
+	 min-height: 100%;
+	 font-family: Georgia;
+	 font-weight: 400;
+	 font-style: normal;
+	 line-height: 25px;
+}
+
+h1 {
+	 font-size: 60px;
+	 text-decoration: bold;
+	 line-height: 60px;
+	 margin: 0px 0px 15px 0px;
+	 font-weight: 400;
+	 font-style: normal;
+	 font-family: "EB Garamond";
+}
+
+h2 {
+	 font-size: 28px;
+	 line-height: 52px;
+	 margin: 0px 0px 25px 0px;
+	 font-family: "EB Garamond";
+	 font-weight: 400;
+	 font-style: normal;
+}
+p {
+	 margin: 0px 0px 25px 0px;
+	 text-transform: inherit;
+	 font-size: 18px;
+	 font-family: "EB Garamond";
+	 font-weight: 400;
+	 font-style: normal;
+}
+a {
+	text-decoration: none;
+	color: black;
+	border-bottom: 2px dotted black;
+}
+a:hover {
+	text-decoration: none;
+	background-color: yellow;
+}

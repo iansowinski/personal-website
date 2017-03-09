@@ -33,7 +33,6 @@ h3 {
 	font-size: 18px;
 	color: black;
 	font-weight: 700;
-	font-style: normal;
 }
 p {
 	 text-transform: inherit;
@@ -41,40 +40,10 @@ p {
 	 font-family: "Fira Mono", monospace;
 	 color: black;
 	 font-weight: 400;
-	 font-style: normal;
 }
 a {
-	font-size: 13px;
+	
 	font-family: "Fira Mono", monospace;
-	text-decoration: underline;
-	color: black;
-	font-style: italic;
-}
-h1 a {
-	 text-transform: inherit;
-	 line-height: 32px;
-	 font-size: 36px;
-	 font-family: "Fira Mono", monospace;
-	 color: black;
-	 font-weight: 700;
-	 font-style: normal;
-	text-decoration: none;
-}
-h1 a:hover {
-	text-decoration: none;
-	background-color: yellow;
-	color: black;
-}
-a:hover {
-	text-decoration: underline;
-	background-color: yellow;
-	color: black;
-}
-a:active {
-	text-decoration: underline;
-	color: black;
-}
-a:visited {
 	text-decoration: underline;
 	color: black;
 }
@@ -98,4 +67,33 @@ img {
 }
 .nav {
 	text-align: right;
+}
+p,li,h2 {
+  font-family: 'Fira Mono', monospace;
+  color: #000000;
+}
+ul {
+  list-style-type: none;
+   padding-left: 1.5em;
+}
+a {
+  text-decoration: none;
+  border-bottom: 1pt solid #0000ff;
+  color: #0000ff !important;
+  background:transparent;
+  transition: all 1s ease;
+}
+a:hover {
+  color: #ffffff !important;
+  text-decoration: none;
+  background: #ff0090;
+  border-bottom: 1pt solid transparent;
+}
+a:active, a:visited {
+  text-decoration:none;
+    color:black;
+}
+h1 a {
+	border: none;
+	color: #000000 !important;
 }

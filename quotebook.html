@@ -62,7 +62,7 @@
           xmlHttp.open("GET", theUrl, true); // true for asynchronous 
           xmlHttp.send(null);
     }
-    httpGetAsync('http://92.222.86.146:8080/api/quotes/', function(item){app.quotes = JSON.parse('['+item+']'); console.log(app.quotes[0])});
+    httpGetAsync('http://api.iansowinski.com:8080/api/quotes/', function(item){app.quotes = JSON.parse('['+item+']'); console.log(app.quotes[0])});
     var app = new Vue({
       el: '#app',
       data: {

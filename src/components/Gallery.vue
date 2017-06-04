@@ -119,7 +119,7 @@ p {
 	 font-family: "Inconsolata", monospace;
 	 color: black;
 	 font-weight: 400;
-	 white-space: pre;
+	 white-space: pre-line;
 }
 a {
 	

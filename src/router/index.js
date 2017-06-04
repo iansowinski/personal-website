@@ -26,7 +26,7 @@ export default new Router({
     	component: Posters
     },
     {
-      path: '/:item',
+      path: '/:item/:id?',
       name: 'Gallery',
       component: Gallery
 	  }

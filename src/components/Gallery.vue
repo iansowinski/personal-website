@@ -6,8 +6,7 @@
           <h2></h2>
           <div class="nav">
             <p>
-                <span v-on:click="prev()"  class="prev">previous</span>&nbsp;/&nbsp;
-                <span v-on:click="next()"  class="next">next</span>
+                <span v-on:click="prev()"  class="prev">previous</span>&nbsp;/&nbsp;<span v-on:click="next()"  class="next">next</span>
             </p>
           </div>
       </div>
@@ -67,6 +66,12 @@ export default {
   			this.prev()
   		}
     }.bind(this), false);
+  },
+  mounted: function(){
+  	var id = parseFloat(this.$route.params.id)
+    if (!isNaN(id) && id >= 0 && id < this.galleryData.photos.length){
+    	this.active = id
+    }
   }
 }
 </script>
@@ -114,6 +119,7 @@ p {
 	 font-family: "Inconsolata", monospace;
 	 color: black;
 	 font-weight: 400;
+	 white-space: pre;
 }
 a {
 	

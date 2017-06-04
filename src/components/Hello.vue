@@ -33,14 +33,16 @@
         </ul>
         <h2>photography & posters</h2>
         <ul>
-          <!-- <li><a target="_blank" href="game-of-life/index.html">Game of Life</a> (2017, instalation)</li> -->
-          <li><router-link target="_blank" to="posters">Posters</router-link> (2015-present)</li>
+          <li><router-link target="_blank" to="argument-against-the-divinity-of-men">Argument against the divinity of men</router-link> (2015-2017)</li>
+          <li><router-link target="_blank" tp="game-of-life">Game of Life</router-link> (2017, instalation)</li>
           <li><router-link target="_blank" to="endless-summer">Endless Summer</router-link> (2011-2015)</li>
           <li><router-link target="_blank" to="east-meets-east">East meets East</router-link> (2011-present)</li>
           <li><router-link target="_blank" to="presence">Presence</router-link> (2012-present)</li>
           <li><router-link target="_blank" to="kod">Anti-government protest in Warsaw</router-link> (2016, short story)</li>
           <li><router-link target="_blank" to="grom">Scouting Extreme Race</router-link (2016, short story)</li>
           <li><router-link target="_blank" to="tymek-and-jagoda">Wedding</router-link> (2016, short story)</li>
+          <li><router-link target="_blank" to="posters">Posters</router-link> (2015-present)</li>
+          <li><a href="https://instagram.com/iansowinski">@iansowinski</a> on instagram</li>
         </ul>
       </div>
     	<div class="col-md-4">

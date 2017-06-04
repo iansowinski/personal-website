@@ -34,7 +34,7 @@
         <h2>photography & posters</h2>
         <ul>
           <li><router-link target="_blank" to="argument-against-the-divinity-of-men">Argument against the divinity of men</router-link> (2015-2017)</li>
-          <li><router-link target="_blank" tp="game-of-life">Game of Life</router-link> (2017, instalation)</li>
+          <li><router-link target="_blank" to="game-of-life">Game of Life</router-link> (2017, instalation)</li>
           <li><router-link target="_blank" to="endless-summer">Endless Summer</router-link> (2011-2015)</li>
           <li><router-link target="_blank" to="east-meets-east">East meets East</router-link> (2011-present)</li>
           <li><router-link target="_blank" to="presence">Presence</router-link> (2012-present)</li>

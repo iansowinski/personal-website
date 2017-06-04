@@ -100,11 +100,20 @@ export default {
   		galleryData: Data[this.$route.params.item],
   		active: 0
   	}
+  },
+  created: function(){
+		window.addEventListener('keydown', function(event) {
+			if (event.key === "ArrowRight") {
+  			this.next(3)
+  		} else if (event.key === "ArrowLeft") {
+  			this.prev(3)
+  		}
+    }.bind(this), false);
   }
 }
 </script>
 
-<style>
+<style scoped>
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,700');
 html, body {
 	height: 100%;
@@ -122,13 +131,13 @@ h1 {
 	 text-transform: inherit;
 	 line-height: 32px;
 	 font-size: 36px;
-	 font-family: "Fira Mono", monospace;
+	 font-family: "Inconsolata", monospace;
 	 color: black;
 	 font-weight: 700;
 	 font-style: normal;
 }
 h2 {
-	border-bottom: 2px solid white;
+	border-bottom: 2px solid #fdf6e3;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	display: block;
@@ -136,7 +145,7 @@ h2 {
 	box-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
 }
 h3 {
-	font-family: "Fira Mono", monospace;
+	font-family: "Inconsolata", monospace;
 	font-size: 18px;
 	color: black;
 	font-weight: 700;
@@ -144,18 +153,19 @@ h3 {
 p {
 	 text-transform: inherit;
 	 font-size: 12px;
-	 font-family: "Fira Mono", monospace;
+	 font-family: "Inconsolata", monospace;
 	 color: black;
 	 font-weight: 400;
 }
 a {
 	
-	font-family: "Fira Mono", monospace;
+	font-family: "Inconsolata", monospace;
 	text-decoration: underline;
 	color: black;
 }
 .thumbnail {
 	border: none;
+	background: transparent;
 }
 img {
 	max-height: 600px;
@@ -167,7 +177,7 @@ img {
 	padding: 5px;
 	text-transform: inherit;
 	font-size: 13px;
-	font-family: "Fira Mono", monospace;
+	font-family: "Inconsolata", monospace;
 	color: black;
 	font-weight: 400;
 	font-style: italic;
@@ -176,28 +186,30 @@ img {
 	text-align: right;
 }
 p,li,h2 {
-  font-family: 'Fira Mono', monospace;
+  font-family: 'Inconsolata', monospace;
   color: #000000;
 }
 ul {
   list-style-type: none;
    padding-left: 1.5em;
 }
-a {
+a, .next, .prev {
   text-decoration: none;
-  border-bottom: 1pt solid #0000ff;
-  color: #0000ff !important;
+  color: #cb4b16 !important;
   background:transparent;
-  transition: all 1s ease;
-}
-a:hover {
-  color: #ffffff !important;
-  text-decoration: none;
-  background: #ff0090;
+  transition: all 0.5s ease;
   border-bottom: 1pt solid transparent;
+}
+a:hover, .next:hover, .prev:hover {
+	user-select: none;
+	cursor: pointer;
+  color: #cb4b16 !important;
+  text-decoration: none;
+  border-bottom: 1px solid #cb4b16;
 }
 a:active, a:visited, a:link {
   text-decoration:none;
+  color: #cb4b16;
 }
 h1 a {
 	border: none;

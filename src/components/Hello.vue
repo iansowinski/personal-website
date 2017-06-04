@@ -34,7 +34,7 @@
         <h2>photography & posters</h2>
         <ul>
           <!-- <li><a target="_blank" href="game-of-life/index.html">Game of Life</a> (2017, instalation)</li> -->
-          <li><a target="_blank" href="poster/">Posters</a> (2015-present)</li>
+          <li><router-link target="_blank" to="posters">Posters</router-link> (2015-present)</li>
           <li><router-link target="_blank" to="endless-summer">Endless Summer</router-link> (2011-2015)</li>
           <li><router-link target="_blank" to="east-meets-east">East meets East</router-link> (2011-present)</li>
           <li><router-link target="_blank" to="presence">Presence</router-link> (2012-present)</li>
@@ -46,7 +46,7 @@
     	<div class="col-md-4">
         <h2>exhibitions</h2>
         <ul>
-          <li><a target="_blank" href="game-of-life/">Game of Life</a> (ROTUNDA, Poznań, 2017) - solo</li>
+          <li><router-link target="_blank" to="game-of-life">Game of Life</router-link> (ROTUNDA, Poznań, 2017) - solo</li>
           <li>Street Dogs of Poland (WYSPA, Gdańsk, 2016) - group</li>
           <li>Mój Fyrtel (PIX.HOUSE, Poznań, 2015) - group</li>
         </ul>
@@ -54,7 +54,7 @@
         <ul>
           <li>2015-2018 BFA, Graphic Arts (University of Fine Arts in Poznań)</li>
         </ul>
-        <p><a href="~@/assets/CV_Jan_Sowiński.pdf" target="_blank">Resumee</a></p>
+        <p><a href="/static/CV_Jan_Sowinski.pdf" target="_blank">Resumee</a></p>
       </div>
     </div>
   </div>
@@ -70,6 +70,8 @@ export default {
 	body {
 		background: #fdf6e3;
 	}
+</style>
+<style scoped>
 	p,li,h1,h2 {
 	  font-family: 'Inconsolata', monospace;
 	  color: #626262;

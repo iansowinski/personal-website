@@ -9,13 +9,13 @@
     	<div class="col-md-4">
     		<br>
           <p>
-            I am designer and software developer. Studying Graphic Arts at University of Art in Poznań, I consider programming as the field of design. I feel quite comfortable with JavaScript, Ruby and Python.
+            I am designer and software developer. Studying Graphic Arts at University of Art in Poznań, I consider programming as the field of design. I am passionate about vue.js and ruby language. I also feel quite comfortable in python.
           </p><p>
             Due to my interests in graphic design, front-end development is my key area of concern in IT.
           </p><p>
             I gained a large knowledge and skill set in my nine active years in scouting (inter alia as: guide, promotion manager, photojournalist).
           </p><p>
-            After hours I’m documentary photographer.
+            After hours I’m documentary photographer. 
           </p>
         <h2>contact</h2>
         <ul>

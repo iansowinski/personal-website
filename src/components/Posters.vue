@@ -6,8 +6,8 @@
           <h2></h2>
           <div class="nav">
             <p>
-                <span v-on:click="prev(7)" class="prev">previous</span>&nbsp;/&nbsp;
-                <span v-on:click="next(7)" class="next">next</span>
+                <span v-on:click="prev(8)" class="prev">previous</span>&nbsp;/&nbsp;
+                <span v-on:click="next(8)" class="next">next</span>
             </p>
           </div>
       </div>
@@ -77,11 +77,15 @@ export default {
 				},
 				{
 					"title":"Emigration",
-					"description":"Printed in seriography class at Univeristy of Art in Poznań. "
+					"description":"Printed in seriography class at Univeristy of Art in Poznań."
 				},
 				{
 					"title":"The Last Family",
 					"description":"Poster for the polish movie about Beksiński family (\"The Last Family\", 2016)."
+				},
+				{
+					"title":"Trump",
+					"description":"Poster created after US ellection, when Donald Trump took office."
 				}
 			],
 			imagesDir: 'posters/',
@@ -91,9 +95,9 @@ export default {
   created: function(){
 		window.addEventListener('keydown', function(event) {
 			if (event.key === "ArrowRight") {
-  			this.next(3)
+  			this.next(8)
   		} else if (event.key === "ArrowLeft") {
-  			this.prev(3)
+  			this.prev(8)
   		}
     }.bind(this), false);
   }

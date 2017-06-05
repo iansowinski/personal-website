@@ -100,7 +100,7 @@ export default {
   		galleryData: Data[this.$route.params.item],
   		active: 0
   	}
-  },
+	},
   created: function(){
 		window.addEventListener('keydown', function(event) {
 			if (event.key === "ArrowRight") {

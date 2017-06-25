@@ -26,8 +26,9 @@
     	<div class="col-md-4">
         <h2>programming & web design</h2>
         <ul>
-          <li><a target="_blank" href="http://contentforces.com">ContentForces</a> - redesign and implementation</li>
+          <li><a target="_blank" href="https://github.com/iansowinski/poznan_bot">Poznan Bot</a> - my telegram bot for subscribing to facebook fanpages, geting the weather forecast and cinema timetables</li>
           <li><a href="https://github.com/iansowinski/fotografia">Game of Life</a> - backend for art instalation</li>
+          <li><a target="_blank" href="http://contentforces.com">ContentForces</a> - redesign and implementation</li>
           <li><a target="_blank" href="http://blekitna14.org">Błękitna Czternastka</a> - design and implementation</li>
           <li><a target="_blank" href="https://github.com/iansowinski">@iansowinski</a> on github</li>
         </ul>

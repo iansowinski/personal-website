@@ -6,7 +6,7 @@
           <h2></h2>
           <div class="nav">
             <p>
-                <span v-on:click="prev()"  class="prev">previous</span>&nbsp;/&nbsp;<span v-on:click="next()"  class="next">next</span>
+                <span v-on:click="prev()"  class="prev">previous</span>&nbsp;/&nbsp;<span v-on:click="next()"  class="next">next</span> ({{active + 1}} / {{getGalleryLength()}})
             </p>
           </div>
       </div>
@@ -50,7 +50,10 @@ export default {
   		else {
 	  		this.active -= 1
 	  	}
-  	}
+  	},
+    getGalleryLength: function(){
+      return this.galleryData.photos.length
+    }
   },
   data: function() {
   	return {
@@ -159,21 +162,21 @@ ul {
 }
 	a, .prev, .next {
 	  text-decoration: none;
-	  color: #cb4b16 !important;
+	  color: #0000ff !important;
 	  background:transparent;
 	  transition: all 0.5s ease;
 	  border-bottom: 1pt solid transparent;
 	}
 	a:hover, .prev:hover, .next:hover{
 		cursor: pointer;
-	  color: #cb4b16 !important;
+	  color: #0000ff !important;
 	  text-decoration: none;
-	  border-bottom: 1px solid #cb4b16;
+	  border-bottom: 1px solid #0000ff;
 	  user-select: none;
 	}
 	a:active, a:visited, a:link {
 	  text-decoration:none;
-	  color: #cb4b16;
+	  color: #0000ff;
 	}
 h1 a {
 	border: none;

@@ -195,7 +195,7 @@ ul {
 }
 a, .next, .prev {
   text-decoration: none;
-  color: #cb4b16 !important;
+  color: #0000ff !important;
   background:transparent;
   transition: all 0.5s ease;
   border-bottom: 1pt solid transparent;
@@ -203,13 +203,13 @@ a, .next, .prev {
 a:hover, .next:hover, .prev:hover {
 	user-select: none;
 	cursor: pointer;
-  color: #cb4b16 !important;
+  color: #0000ff !important;
   text-decoration: none;
-  border-bottom: 1px solid #cb4b16;
+  border-bottom: 1px solid #0000ff;
 }
 a:active, a:visited, a:link {
   text-decoration:none;
-  color: #cb4b16;
+  color: #0000ff;
 }
 h1 a {
 	border: none;

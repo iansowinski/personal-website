@@ -2,12 +2,14 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h1>Ian Sowiński</h1><br>
       </div>
     </div>
     <div class="row">
     	<div class="col-md-4">
-    		<br>
+      <div class="rotate">
+        <h1>Ian Sowiński</h1>
+        <div class="thumbnail"><img :src='"~@/assets/profile/" + profile + ".jpg"' alt=""></div>
+      </div>
           <p>
             I am designer and software developer. Studying Graphic Arts at University of Art in Poznań, I consider programming as the field of design. I am passionate about vue.js and ruby language. I also feel quite comfortable in python.
           </p><p>
@@ -17,16 +19,11 @@
           </p><p>
             After hours I’m documentary photographer. 
           </p>
-        <h2>contact</h2>
-        <ul>
-          <li><a target="_blank" href="https://twitter.com/iansowinski">@iansowinski</a> on twitter</li>
-          <li>sowinj@gmail.com</li>
-        </ul>
     	</div>
     	<div class="col-md-4">
         <h2>programming & web design</h2>
         <ul>
-          <li><a target="_blank" href="https://github.com/iansowinski/poznan_bot">Poznan Bot</a> - my telegram bot for subscribing to facebook fanpages, geting the weather forecast and cinema timetables</li>
+          <li><a target="_blank" href="https://github.com/iansowinski/poznan_bot">Poznan Bot</a> - my telegram bot (<a target="_blank" href="https://telegram.me/poznan_bot">@poznan_bot</a>) for subscribing to facebook fanpages, geting the weather forecast and cinema timetables</li>
           <li><a href="https://github.com/iansowinski/fotografia">Game of Life</a> - backend for art instalation</li>
           <li><a target="_blank" href="http://contentforces.com">ContentForces</a> - redesign and implementation</li>
           <li><a target="_blank" href="http://blekitna14.org">Błękitna Czternastka</a> - design and implementation</li>
@@ -34,6 +31,7 @@
         </ul>
         <h2>photography & posters</h2>
         <ul>
+          <li><router-link target="_blank" to="lancuch-swiatla">Protest against judiciary overhaul in Poland</router-link> (2017, short story)</li>
           <li><router-link target="_blank" to="argument-against-the-divinity-of-men">Argument against the divinity of men</router-link> (2015-2017)</li>
           <li><router-link target="_blank" to="game-of-life">Game of Life</router-link> (2017, instalation)</li>
           <li><router-link target="_blank" to="endless-summer">Endless Summer</router-link> (2011-2016)</li>
@@ -42,6 +40,7 @@
           <li><router-link target="_blank" to="kod">Anti-government protest in Warsaw</router-link> (2016, short story)</li>
           <li><router-link target="_blank" to="grom">Scouting Extreme Race</router-link> (2016, short story)</li>
           <li><router-link target="_blank" to="tymek-and-jagoda">Wedding</router-link> (2016, short story)</li>
+          
           <li><router-link target="_blank" to="posters">Posters</router-link> (2015-present)</li>
           <li><a target="_blank" href="https://instagram.com/iansowinski">@iansowinski</a> on instagram</li>
         </ul>
@@ -58,6 +57,11 @@
           <li>2015-2018 BFA, Graphic Arts (University of Fine Arts in Poznań)</li>
         </ul>
         <p><a href="/static/CV_Jan_Sowinski.pdf" target="_blank">Resumee</a></p>
+        <h2>contact</h2>
+        <ul>
+          <li><a target="_blank" href="https://twitter.com/iansowinski">@iansowinski</a> on twitter</li>
+          <li>sowinj@gmail.com</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -65,19 +69,30 @@
 
 <script>
 export default {
-  name: 'hello'
+  name: 'hello',
+  data: function(){
+    return {
+      profile: Math.floor(Math.random() * 6)
+    }
+  }
 }
 </script>
 
 <style>
 	body {
-		background: #fdf6e3;
+		background: #ffffff;
 	}
 </style>
 <style scoped>
+.col-md-4:nth-child(2), .col-md-4:nth-child(3) {
+  margin-top: 30px;
+}
+.thumbnail {
+  border: none;
+}
 	p,li,h1,h2 {
 	  font-family: 'Inconsolata', monospace;
-	  color: #626262;
+	  color: #000000;
 	}
 	h2 {
 	  font-weight: 700;
@@ -85,25 +100,34 @@ export default {
 	}
 	h1 {
 	  font-weight: 700;
+  }
+  .rotate {
+    transform: rotate(-90deg);
+    max-height: 100%;
+    max-width: 80%;
+    margin-left: 20px;
 	}
+  .rotate img {
+    transform: rotate(90deg);
+  }
 	ul {
 	  list-style-type: none;
 	  padding-left: 0em;
 	}
 	a {
 	  text-decoration: none;
-	  color: #cb4b16 !important;
+	  color: #0000ff !important;
 	  background:transparent;
 	  transition: all 0.5s ease;
 	  border-bottom: 1pt solid transparent;
 	}
 	a:hover {
-	  color: #cb4b16 !important;
+	  color: #0000ff !important;
 	  text-decoration: none;
-	  border-bottom: 1px solid #cb4b16;
+	  border-bottom: 1px solid #0000ff;
 	}
 	a:active, a:visited, a:link {
 	  text-decoration:none;
-	  color: #cb4b16;
+	  color: #0000ff;
 	}
 </style>

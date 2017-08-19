@@ -56,12 +56,13 @@
         <ul>
           <li>2015-2018 BFA, Graphic Arts (University of Fine Arts in Poznań)</li>
         </ul>
-        <p><a href="/static/CV_Jan_Sowinski.pdf" target="_blank">Resumee</a></p>
+        <p><router-link to="resumee" target="_blank">Resumee</router-link></p>
         <h2>contact</h2>
         <ul>
           <li><a target="_blank" href="https://twitter.com/iansowinski">@iansowinski</a> on twitter</li>
           <li>sowinj@gmail.com</li>
         </ul>
+        <p class="gray">Yes, this is kinda <a target="_blank" href="http://www.brutalistwebsites.com">brutal</a></p>
       </div>
     </div>
   </div>
@@ -116,13 +117,13 @@ export default {
 	}
 	a {
 	  text-decoration: none;
-	  color: #0000ff !important;
+	  color: #0000ff;
 	  background:transparent;
 	  transition: all 0.5s ease;
 	  border-bottom: 1pt solid transparent;
 	}
 	a:hover {
-	  color: #0000ff !important;
+	  color: #0000ff;
 	  text-decoration: none;
 	  border-bottom: 1px solid #0000ff;
 	}
@@ -130,4 +131,13 @@ export default {
 	  text-decoration:none;
 	  color: #0000ff;
 	}
+  .gray, .gray a {
+    color: #dadada;
+  }
+  .gray a {
+    border-bottom: 1px solid #dadada;
+  }
+  .gray a:hover {
+    border-bottom: 1px solid #000000;
+  }
 </style>

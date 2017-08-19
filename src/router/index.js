@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/Hello'
+import Resumee from '@/components/Resumee'
 import Gallery from '@/components/Gallery'
 import Game from '@/components/Game'
 import Posters from '@/components/Posters'
@@ -14,6 +15,11 @@ export default new Router({
       path: '/',
       name: 'Hello',
       component: Hello
+    },
+    {
+      path: '/resumee',
+      name: 'Resumee',
+      component: Resumee
     },
     {
     	path: '/game-of-life',

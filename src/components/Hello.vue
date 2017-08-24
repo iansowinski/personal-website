@@ -60,7 +60,7 @@
         <h2>contact</h2>
         <ul>
           <li><a target="_blank" href="https://twitter.com/iansowinski">@iansowinski</a> on twitter</li>
-          <li>sowinj@gmail.com</li>
+          <li>sowinj@gmail.com (<a target="_blank" href="http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xFBCDC76CE4175EB0">GPG Key</a>)</li>
         </ul>
         <p class="gray">Yes, this is kinda <a target="_blank" href="http://www.brutalistwebsites.com">brutal</a></p>
       </div>

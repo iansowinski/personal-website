@@ -19,10 +19,13 @@
           <b>Education:</b> BFA - Graphic Arts, University of Arts in Poznań (2015 - 2018)
         </p>
         <p>
-          <b>Contact:</b>
-          <br>E-Mail: <a href="mailto:sowinj@gmail.com" target="_blank">sowinj@gmail.com</a> (<a target="_blank" href="http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xFBCDC76CE4175EB0">GPG Key</a>)
-          <br>Tel: <a href="tel:+48692394228" target="_blank">+48 692 394 228</a>
-          <br>Twitter: <a href="https://twitter.com/iansowinski" target="_blank">@iansowinski</a>
+      <h2>contact</h2>
+        <ul>
+          <li>Twitter: <a href="https://twitter.com/iansowinski" target="_blank">@iansowinski</a></li>
+          <li>Tel: <a href="tel:+48692394228" target="_blank">+48 692 394 228</a></li>
+          <li>E-Mail: <a href="mailto:sowinj@gmail.com" target="_blank">sowinj@gmail.com</a> (<a target="_blank" href="http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xFBCDC76CE4175EB0">GPG Key</a>)</li>
+          <li class="gray">8C09 0092 4CDD 0C10 1BA7  0521 FBCD C76C E417 5EB0</li>
+        </ul>
         </p>
     	</div>
     	<div class="col-md-4">

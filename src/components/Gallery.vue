@@ -80,11 +80,12 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin-ext');
 html, body {
 	height: 100%;
 	width: 100%;
 	margin: 0 0 0 0;
+  background: #fafafa;
 }
 .main{
 	width: 100%;
@@ -97,10 +98,11 @@ h1 {
 	 text-transform: inherit;
 	 line-height: 32px;
 	 font-size: 36px;
-	 font-family: "Inconsolata", monospace;
+	 font-family: 'Helvetica Neue', 'Arial', 'Source Sans Pro', sans-serif;
 	 color: black;
 	 font-weight: 700;
 	 font-style: normal;
+   color: #4D4D4D;
 }
 h2 {
 	border-bottom: 2px solid #fdf6e3;
@@ -109,24 +111,27 @@ h2 {
 	display: block;
 	width: 100px;
 	box-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+  color: #4D4D4D;
 }
 h3 {
-	font-family: "Inconsolata", monospace;
+	font-family: 'Helvetica Neue', 'Arial', 'Source Sans Pro', sans-serif;
 	font-size: 18px;
 	color: black;
 	font-weight: 700;
+  color: #4D4D4D;
 }
 p {
 	 text-transform: inherit;
 	 font-size: 12px;
-	 font-family: "Inconsolata", monospace;
+	 font-family: 'Helvetica Neue', 'Arial', 'Source Sans Pro', sans-serif;
 	 color: black;
 	 font-weight: 400;
 	 white-space: pre-line;
+   color: #4D4D4D;
 }
 a {
 	
-	font-family: "Inconsolata", monospace;
+	font-family: 'Helvetica Neue', 'Arial', 'Source Sans Pro', sans-serif;
 	text-decoration: underline;
 	color: black;
 }
@@ -144,7 +149,7 @@ img {
 	padding: 5px;
 	text-transform: inherit;
 	font-size: 13px;
-	font-family: "Inconsolata", monospace;
+	font-family: 'Helvetica Neue', 'Arial', 'Source Sans Pro', sans-serif;
 	color: black;
 	font-weight: 400;
 	font-style: italic;
@@ -153,8 +158,8 @@ img {
 	text-align: right;
 }
 p,li,h2 {
-  font-family: 'Inconsolata', monospace;
-  color: #000000;
+  font-family: 'Helvetica Neue', 'Arial', 'Source Sans Pro', sans-serif;
+  color: #4D4D4D;
 }
 ul {
   list-style-type: none;
@@ -181,5 +186,8 @@ ul {
 h1 a {
 	border: none;
 	color: #000000 !important;
+}
+h1 a:hover {
+  border-bottom: none;
 }
 </style>

@@ -16,7 +16,7 @@
           <li>Twitter: <a href="https://twitter.com/iansowinski" target="_blank">@iansowinski</a></li>
           <li>Tel: <a href="tel:+48692394228" target="_blank">+48 692 394 228</a></li>
           <li>E-Mail: <a href="mailto:sowinj@gmail.com" target="_blank">sowinj@gmail.com</a> (<a target="_blank" href="http://pgp.mit.edu/pks/lookup?op=get&search=0xE65DA5E19E28E9EB">GPG Key</a>)</li>
-          <li class="gray">B574 F8B1 8874 0543 E59F  2A9A E65D A5E1 9E28 E9EB</li>
+          <li class="gray fingerprint">B574 F8B1 8874 0543 E59F  2A9A E65D A5E1 9E28 E9EB</li>
         </ul>
     	</div>
     	<div class="col-md-4">
@@ -80,8 +80,9 @@ export default {
 </script>
 
 <style>
+  @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin-ext');
 	body {
-		background: #ffffff;
+		background: #fafafa;
 	}
 </style>
 <style scoped>
@@ -92,15 +93,19 @@ export default {
   border: none;
 }
 	p,li,h1,h2 {
-	  font-family: 'Inconsolata', monospace;
-	  color: #000000;
+	  font-family: 'Helvetica Neue', 'Arial', 'Source Sans Pro', sans-serif;
 	}
+  p,li {
+    color: #4D4D4D;
+  }
 	h2 {
 	  font-weight: 700;
 	  font-size: 1em;
+    color: #000000;
 	}
 	h1 {
 	  font-weight: 700;
+    color: #000000;
   }
   .rotate {
     transform: rotate(-90deg);
@@ -134,10 +139,19 @@ export default {
   .gray, .gray a {
     color: #dadada;
   }
+  .fingerprint {
+    transition: all 0.5s ease;
+  }
+  .fingerprint:hover {
+    color: #4D4D4D;
+  }
   .gray a {
     border-bottom: 1px solid #dadada;
   }
   .gray a:hover {
     border-bottom: 1px solid #000000;
+  }
+  .thumbnail {
+    background-color: transparent;
   }
 </style>

@@ -6,8 +6,7 @@
           <h2></h2>
           <div class="nav">
             <p>
-                <span v-on:click="prev(8)" class="prev">previous</span>&nbsp;/&nbsp;
-                <span v-on:click="next(8)" class="next">next</span>
+                <span v-on:click="prev(8)" class="prev">previous</span>&nbsp;/&nbsp;<span v-on:click="next(8)" class="next">next</span>
                  ({{active + 1}} / {{getGalleryLength()}})
             </p>
           </div>
@@ -109,105 +108,114 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin-ext');
 html, body {
-	height: 100%;
-	width: 100%;
-	margin: 0 0 0 0;
+  height: 100%;
+  width: 100%;
+  margin: 0 0 0 0;
+  background: #fafafa;
 }
 .main{
-	width: 100%;
+  width: 100%;
 }
 .row {
-	margin: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 /* CZCIONKI */
 h1 {
-	 text-transform: inherit;
-	 line-height: 32px;
-	 font-size: 36px;
-	 font-family: "Inconsolata", monospace;
-	 color: black;
-	 font-weight: 700;
-	 font-style: normal;
+   text-transform: inherit;
+   line-height: 32px;
+   font-size: 36px;
+   font-family: 'Helvetica Neue', 'Arial', 'Source Sans Pro', sans-serif;
+   color: black;
+   font-weight: 700;
+   font-style: normal;
+   color: #000000;
 }
 h2 {
-	border-bottom: 2px solid #fdf6e3;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	display: block;
-	width: 100px;
-	box-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+  border-bottom: 2px solid #fdf6e3;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  width: 100px;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+  color: #000000;
 }
 h3 {
-	font-family: "Inconsolata", monospace;
-	font-size: 18px;
-	color: black;
-	font-weight: 700;
+  font-family: 'Helvetica Neue', 'Arial', 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+  color: #000000;
 }
 p {
-	 text-transform: inherit;
-	 font-size: 12px;
-	 font-family: "Inconsolata", monospace;
-	 color: black;
-	 font-weight: 400;
+   text-transform: inherit;
+   font-size: 12px;
+   font-family: 'Helvetica Neue', 'Arial', 'Source Sans Pro', sans-serif;
+   color: black;
+   font-weight: 400;
+   white-space: pre-line;
+   color: #4D4D4D;
 }
 a {
-	
-	font-family: "Inconsolata", monospace;
-	text-decoration: underline;
-	color: black;
+  
+  font-family: 'Helvetica Neue', 'Arial', 'Source Sans Pro', sans-serif;
+  text-decoration: underline;
+  color: black;
 }
 .thumbnail {
-	border: none;
-	background: transparent;
+  border: none;
+  background: transparent;
 }
 img {
-	max-height: 600px;
+  max-height: 600px;
 }
 .capition {
-	text-align: center;
+  text-align: center;
 }
 .thumbnail p {
-	padding: 5px;
-	text-transform: inherit;
-	font-size: 13px;
-	font-family: "Inconsolata", monospace;
-	color: black;
-	font-weight: 400;
-	font-style: italic;
+  padding: 5px;
+  text-transform: inherit;
+  font-size: 13px;
+  font-family: 'Helvetica Neue', 'Arial', 'Source Sans Pro', sans-serif;
+  color: black;
+  font-weight: 400;
+  font-style: italic;
 }
 .nav {
-	text-align: right;
+  text-align: right;
 }
 p,li,h2 {
-  font-family: 'Inconsolata', monospace;
-  color: #000000;
+  font-family: 'Helvetica Neue', 'Arial', 'Source Sans Pro', sans-serif;
+  color: #4D4D4D;
 }
 ul {
   list-style-type: none;
    padding-left: 1.5em;
 }
-.next, .prev, a {
+a, .prev, .next {
   text-decoration: none;
   color: #0000ff !important;
   background:transparent;
   transition: all 0.5s ease;
   border-bottom: 1pt solid transparent;
 }
-.next:hover, .prev:hover, a:hover {
-	cursor: pointer;
-	user-select: none;
+a:hover, .prev:hover, .next:hover{
+  cursor: pointer;
   color: #0000ff !important;
   text-decoration: none;
   border-bottom: 1px solid #0000ff;
+  user-select: none;
 }
 a:active, a:visited, a:link {
   text-decoration:none;
   color: #0000ff;
 }
 h1 a {
-	border: none;
-	color: #000000 !important;
+  border: none;
+  color: #000000 !important;
+}
+h1 a:hover {
+  border-bottom: none;
 }
 </style>

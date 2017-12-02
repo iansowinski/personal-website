@@ -13,14 +13,14 @@
 
       <h2>contact</h2>
         <ul>
-          <li>Twitter: <a href="https://twitter.com/iansowinski" target="_blank">@iansowinski</a></li>
-          <li>Tel: <a href="tel:+48692394228" target="_blank">+48 692 394 228</a></li>
-          <li>E-Mail: <a href="mailto:sowinj@gmail.com" target="_blank">sowinj@gmail.com</a> (<a target="_blank" href="http://pgp.mit.edu/pks/lookup?op=get&search=0xE65DA5E19E28E9EB">GPG Key</a>)</li>
+          <li>🐦 Twitter: <a href="https://twitter.com/iansowinski" target="_blank">@iansowinski</a></li>
+          <li>☎ Tel: <a href="tel:+48692394228" target="_blank">+48 692 394 228</a></li>
+          <li>📮 E-Mail: <a href="mailto:sowinj@gmail.com" target="_blank">sowinj@gmail.com</a> (<a target="_blank" href="http://pgp.mit.edu/pks/lookup?op=get&search=0xE65DA5E19E28E9EB">🔑 GPG Key</a>)</li>
           <li class="gray fingerprint">B574 F8B1 8874 0543 E59F  2A9A E65D A5E1 9E28 E9EB</li>
         </ul>
     	</div>
     	<div class="col-md-4">
-        <h2>programming & web design</h2>
+        <h2>💻 programming & web design</h2>
         <ul>
           <li><a target="_blank" href="https://github.com/iansowinski/poznan_bot">Poznan Bot</a> - my telegram bot (<a target="_blank" href="https://telegram.me/poznan_bot">@poznan_bot</a>) for subscribing to facebook fanpages, geting the weather forecast and cinema timetables</li>
           <li><a href="https://github.com/iansowinski/fotografia">Game of Life</a> - backend for art instalation</li>
@@ -28,7 +28,7 @@
           <!-- <li><a target="_blank" href="http://blekitna14.org">Błękitna Czternastka</a> - design and implementation</li> -->
           <li><a target="_blank" href="https://github.com/iansowinski">@iansowinski</a> on github</li>
         </ul>
-        <h2>photography & posters</h2>
+        <h2>📸 photography & posters</h2>
         <ul>
           <li><router-link target="_blank" to="lancuch-swiatla">Judiciary overhaul in Poland</router-link> (2017, short story)</li>
           <li><router-link target="_blank" to="argument-against-the-divinity-of-men">Argument against the divinity of men</router-link> (2015-2017)</li>
@@ -43,7 +43,7 @@
           <li><router-link target="_blank" to="posters">Posters</router-link> (2015-present)</li>
           <li><a target="_blank" href="https://instagram.com/iansowinski">@iansowinski</a> on instagram</li>
         </ul>
-        <h2>exhibitions</h2>
+        <h2>🍷 exhibitions</h2>
         <ul>
           <li><router-link target="_blank" to="game-of-life">Game of Life</router-link> (ROTUNDA, Poznań, 2017) - solo</li>
           <li>Street Dogs of Poland (WYSPA, Gdańsk, 2016) - group</li>
@@ -51,7 +51,7 @@
         </ul>
       </div>
     	<div class="col-md-4">
-        <h2>about me & resumee</h2>
+        <h2>👨‍💻 about me & resumee</h2>
         <p>
             I am designer and software developer. Studying Graphic Arts at University of Art in Poznań, I consider programming as the field of design. I am passionate about vue.js and ruby language. I also feel quite comfortable in python.
           </p><p>
@@ -61,7 +61,7 @@
           </p><p>
             After hours I’m documentary photographer. 
           </p>
-        <p><router-link to="resumee" target="_blank">Resumee</router-link></p>
+        <p><router-link to="resumee" target="_blank">📚 Resumee</router-link></p>
         <p class="gray">Yes, this is kinda <a target="_blank" href="http://www.brutalistwebsites.com">brutal</a></p>
       </div>
     </div>

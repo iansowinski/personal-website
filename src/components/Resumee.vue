@@ -47,6 +47,7 @@
           <li>Implementing chatbot client (with RESTful API & Vue.js)</li>
           <li>Implementing chatbot server (in Python flask)</li>
           <li>Designing flowcharts of chatbot conversations</li>
+          <li>Introducing Docker to company</li>
         </ul>
       </div>
     	<div class="col-md-4">
@@ -56,7 +57,7 @@
           <li>Working knowledge of Vue.js front-end framework</li>
           <li>Working knowledge of object-oriented programming topics</li>
           <li>Understanding of RWD and PWA toppics</li>
-          <li>Basic knowladge of Ruby on Rails</li>
+          <li>Basic knowledge of Ruby on Rails</li>
           <li>Experience in version control (GIT)</li>
           <li>Brief knowledge of TDD (I use RSpec)</li>
           <li>Skill in using Adobe Creative Suit: Photoshop, Illustrator, Indesign, Lightroom</li>

@@ -38,13 +38,13 @@
         </div>
         <div class="col-sm-6">
           <div class="thumbnail">
-            <img src="~@/assets/game-of-life/chart.jpg">
+            <img src="/static/game-of-life/chart.jpg">
             <div class="capition">
               <p style="font-size: 10px;float: left;">source: Wolfram MathWorld</p>
             </div>
           </div>
           <div class="thumbnail" style="margin-top: 100px;">
-            <img src="~@/assets/game-of-life/shell.jpg">
+            <img src="/static/game-of-life/shell.jpg">
             <div class="capition">
               <p style="font-size: 10px; float: left;">source: Wikimedia Commons</p>
             </div>
@@ -57,13 +57,13 @@
         </div>
       </div>
         <div class="thumbnail" v-if="active==1">
-          <img src="~@/assets/game-of-life/game-1.jpg">
+          <img src="/static/game-of-life/game-1.jpg">
         </div>
         <div class="thumbnail" v-if="active==2">
-            <img src="~@/assets/game-of-life/game-2.jpg">
+            <img src="/static/game-of-life/game-2.jpg">
         </div>
         <div class="thumbnail" v-if="active==3">
-          <img src="~@/assets/game-of-life/game-3.jpg">
+          <img src="/static/game-of-life/game-3.jpg">
         </div>
       </div>
 
@@ -108,6 +108,13 @@ export default {
   			this.prev(3)
   		}
     }.bind(this), false);
+  },
+  mounted: function(){
+    var images = new Array()
+    for (let i = 0; i < this.galleryData.photos.length; i++) {
+      images[i] = new Image()
+      images[i].src = "/static/" + this.galleryData.imagesDir + i + ".jpg"
+    }
   }
 }
 </script>

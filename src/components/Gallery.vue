@@ -14,7 +14,7 @@
     <div class="row">
       <div class="col-sm-7 col-sm-offset-1">
         <div class="thumbnail" id="galleryData.active">
-          <img :src='"~@/assets/"+galleryData.imagesDir+active+".jpg"'>
+          <img :src='"/static/"+galleryData.imagesDir+active+".jpg"'>
           <div class="capition">
             <p>
               {{galleryData.photos[active]}}
@@ -74,6 +74,11 @@ export default {
   	var id = parseFloat(this.$route.params.id)
     if (!isNaN(id) && id >= 0 && id < this.galleryData.photos.length){
     	this.active = id
+    }
+    var images = new Array()
+    for (let i = 0; i < this.galleryData.photos.length; i++) {
+      images[i] = new Image()
+      images[i].src = "/static/" + this.galleryData.imagesDir + i + ".jpg"
     }
   }
 }

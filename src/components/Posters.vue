@@ -15,7 +15,7 @@
     <div class="row">
     <div class="col-sm-4 col-sm-offset-1">
       <div class="thumbnail">
-        <img :src='"~@/assets/"+imagesDir+galleryData[active].title.split(" ").join("").toLowerCase()+".jpg"'>
+        <img :src='"/static/"+imagesDir+galleryData[active].title.split(" ").join("").toLowerCase()+".jpg"'>
       </div>
 	  </div>
     <div class="col-sm-4">
@@ -103,7 +103,14 @@ export default {
   			this.prev(8)
   		}
     }.bind(this), false);
-  }
+  },
+  mounted: function(){
+    var images = new Array()
+    for (let i = 0; i < this.galleryData.photos.length; i++) {
+      images[i] = new Image()
+      images[i].src = "/static/" + this.galleryData.imagesDir + i + ".jpg"
+    }
+  } 
 }
 </script>
 

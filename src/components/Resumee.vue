@@ -35,7 +35,7 @@
         </p><p>
           Due to my interests in graphic design, front-end development is my key area of concern in IT.
         </p><p>
-          I gained a large knowledge and skill set in my nine active years in scouting (inter alia as: guide, promotion manager, photojournalist).
+          I developed a knowledge and skill set in my nine active years in scouting (inter alia as: guide, promotion manager, photojournalist).
         </p><p>
           After hours I’m documentary photographer. 
         </p>
@@ -73,7 +73,7 @@
         <h2>🎈 Social skills:</h2>
         <ul>
           <li>Very good knowledge of English</li>
-          <li>Large experience in teamwork, gained in scouting movement</li>
+          <li>Wide experience in teamwork, gained in scouting movement</li>
           <li>Responsibility and attachment to ethic rules</li>
           <li>Experience in organizing massive events, gained in scouting movement</li>
         </ul>

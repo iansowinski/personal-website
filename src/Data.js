@@ -137,10 +137,10 @@ export default {
 				""
 			]
 		},
-		"presence": {
-			title: 'Presence ',
+		"self-portraits": {
+			title: 'Self-portraits ',
 			description: '',
-			imagesDir: 'presence/',
+			imagesDir: 'self-portraits/',
 			photos: [
 				"Rennes, France - 2016",
 				"Bieszczady, Poland - 2015",

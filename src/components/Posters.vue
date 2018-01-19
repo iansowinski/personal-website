@@ -6,7 +6,7 @@
           <h2></h2>
           <div class="nav">
             <p>
-                <span v-on:click="prev(8)" class="prev">previous</span>&nbsp;/&nbsp;<span v-on:click="next(8)" class="next">next</span>
+                <span v-on:click="prev(10)" class="prev">previous</span>&nbsp;/&nbsp;<span v-on:click="next(10)" class="next">next</span>
                  ({{active + 1}} / {{getGalleryLength()}})
             </p>
           </div>
@@ -48,7 +48,7 @@ export default {
 	  	}
   	},
     getGalleryLength: function(){
-      return 9
+      return 11
     }
   },
   data: function() {
@@ -76,7 +76,7 @@ export default {
 				},
 				{
 					"title":"Mr Rude",
-					"description":"Poster created in Univeristy of Art in Poznań.Our task was to create poster on given subject \"Mr. Rude\". I tried to express problem}of vulgarity among higher class.Printed in seriography class at Univeristy of Art in Poznań. "
+					"description":"Poster created in Univeristy of Art in Poznań.Our task was to create poster on given subject \"Mr. Rude\". I tried to express problem of vulgarity among higher class.Printed in seriography class at Univeristy of Art in Poznań. "
 				},
 				{
 					"title":"Emigration",
@@ -89,7 +89,15 @@ export default {
 				{
 					"title":"Trump",
 					"description":"Poster created after US ellection, when Donald Trump took office."
-				}
+				},
+        {
+          "title":"Ostentatious Wealth",
+          "description":"Poster created in Univeristy of Art in Poznań.Our task was to create poster on two given subjects: 'Ostentatious Wealth' and 'Discreet Poverty'."
+        },
+        {
+          "title":"Discreet Poverty",
+          "description":"Poster created in Univeristy of Art in Poznań.Our task was to create poster on two given subjects: 'Ostentatious Wealth' and 'Discreet Poverty'."
+        }
 			],
 			imagesDir: 'posters/',
   		active: 0
@@ -98,9 +106,9 @@ export default {
   created: function(){
 		window.addEventListener('keydown', function(event) {
 			if (event.key === "ArrowRight") {
-  			this.next(8)
+  			this.next(10)
   		} else if (event.key === "ArrowLeft") {
-  			this.prev(8)
+  			this.prev(10)
   		}
     }.bind(this), false);
   },

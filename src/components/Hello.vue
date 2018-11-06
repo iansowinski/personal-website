@@ -11,12 +11,16 @@
           <div class="thumbnail"><img :src='"~@/assets/profile/" + profile + ".jpg"' alt=""></div>
         </div>
         <p>
-          Ruby and Vue enthusiast. Documentary photographer. Former scouting guide. Studying Graphic Arts at University of Arts in Poznań. 汉语学生 wannabe.
+          I'm passionate about finding connections between art, design  and computer science.
+        </p>
+        <p>
+          Ruby and Vue.js enthusiast. Documentary photographer. Former scouting guide. Studying Graphic Arts at University of Arts in Poznań.
         </p>
       </div>
     	<div class="col-sm-4">
         <h2>long-term projects</h2>
         <ul>
+          <li><router-link to="no-boresight-installed">No Boresight Installed</router-link> (2017-2018, installation)</li>
           <li><router-link to="argument-against-the-divinity-of-men">Argument against the divinity of men</router-link> (2015-2017)</li>
           <li><router-link to="game-of-life">Game of Life</router-link> (2017, instalation)</li>
           <li><router-link to="east-meets-east">East meets East</router-link> (2011-present)</li>
@@ -30,22 +34,9 @@
           <li><router-link to="grom">Scouting Extreme Race</router-link> (2016, short story)</li>
           <li><router-link to="tymek-and-jagoda">Wedding</router-link> (2016, short story)</li>
         </ul>
-        <!-- <h2>exhibitions</h2>
-        <ul>
-          <li><router-link to="game-of-life">Game of Life</router-link> (ROTUNDA, Poznań, 2017) - solo</li>
-          <li>Street Dogs of Poland (WYSPA, Gdańsk, 2016) - group</li>
-          <li>Mój Fyrtel (PIX.HOUSE, Poznań, 2015) - group</li>
-        </ul> -->
         <h2><router-link to="posters">Posters</router-link> (2015-present)</h2>
       </div>
       <div class="col-sm-4">
-        <h2>programming</h2>
-        <ul>
-          <li><a href="https://github.com/iansowinski/poznan_bot">Poznan Bot</a> - my telegram bot (<a href="https://telegram.me/poznan_bot">@poznan_bot</a>) for subscribing to facebook fanpages, geting the weather forecast and cinema timetables</li>
-          <li><a href="https://github.com/iansowinski/fotografia">Game of Life</a> - backend for art instalation</li>
-          <li><a href="http://contentforces.com">ContentForces</a> - redesign and implementation</li>
-          <li><a href="http://nakielska.pl">Izabela Nakielska</a> - design and implementation</li>
-        </ul>
         <h2>contact</h2>
         <ul>
           <li>Twitter: <a href="https://twitter.com/iansowinski">@iansowinski</a></li>

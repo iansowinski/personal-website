@@ -4,6 +4,7 @@ import Hello from '@/components/Hello'
 import Resumee from '@/components/Resumee'
 import Gallery from '@/components/Gallery'
 import Game from '@/components/Game'
+import NoBoresight from '@/components/NoBoresight';
 import Posters from '@/components/Posters'
 // import Data from '@/Data'
 
@@ -25,6 +26,11 @@ export default new Router({
     	path: '/game-of-life',
     	name: 'Game',
     	component: Game
+    },
+    {
+    	path: '/no-boresight-installed',
+    	name: 'NoBoresight',
+    	component: NoBoresight
     },
     {
     	path: '/posters',

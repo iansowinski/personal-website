@@ -6,15 +6,12 @@
     </div>
     <div class="row">
     	<div class="col-sm-4">
-        <div class="rotate">
+        <div class="rotate" width="100%" height="100%">
           <h1>Ian Sowiński</h1>
-          <div class="thumbnail"><img :src='"~@/assets/profile/" + profile + ".jpg"' alt=""></div>
+          <div class="thumbnail"><img :src='"~@/assets/profile/" + profile + ".jpg"' alt="" width="100%" height="100%"></div>
         </div>
         <p>
-          I'm passionate about finding connections between art, design  and computer science.
-        </p>
-        <p>
-          Ruby and Vue.js enthusiast. Documentary photographer. Former scouting guide. Studying Graphic Arts at University of Arts in Poznań.
+         I am focused mainly on Front-End development and UX/UI design. There is some space in my work for branding projects. But here you can see the effects of my lifetime passion: photography.
         </p>
       </div>
     	<div class="col-sm-4">
@@ -41,12 +38,10 @@
         <ul>
           <li>Twitter: <a href="https://twitter.com/iansowinski">@iansowinski</a></li>
           <li>Instagram: <a href="https://instagram.com/iansowinski">@iansowinski</a></li>
-          <li>Github: <a href="https://instagram.com/iansowinski">@iansowinski</a></li>
+          <li>Github: <a href="https://github.com/iansowinski">@iansowinski</a></li>
           <li>Tel: <a href="tel:+48692394228">+48 692 394 228</a></li>
-          <li>E-Mail: <a href="mailto:sowinj@gmail.com">sowinj@gmail.com</a> (<a href="http://pgp.mit.edu/pks/lookup?op=get&search=0xE65DA5E19E28E9EB">GPG Key</a>)</li>
-          <li class="gray fingerprint">B574 F8B1 8874 0543 E59F  2A9A E65D A5E1 9E28 E9EB</li>
+          <li>E-Mail: <a href="mailto:sowinj@gmail.com">sowinj@gmail.com</a></li>
         </ul>
-        <p class="gray">Yes, this is kinda <a href="http://www.brutalistwebsites.com">brutal</a></p>
       </div>
     </div>
   </div>

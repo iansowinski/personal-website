@@ -22,13 +22,13 @@
               In order to shoot with any type of weapon, the sight must be calibrated with the barrel. „Boresight” is a term used to describe the calibration of a weapon so that an object seen in a target is on the shooting line.
             </p>
             <p>
-              The title was taken from one of the videos used to create the installation. The weapon sights in a part of military aircraft are set to be used with the missiles by default. Majority of the weapons installed on bo- ard are ususally incompatible with the standard tar- geting system, which causes ‚No boresight installed’ error seen by machine operators.
+              The title was taken from one of the videos used to create the installation. The weapon sights in a part of military aircraft are set to be used with the missiles by default. Majority of the weapons installed on board are ususally incompatible with the standard targeting system, which causes ‚No boresight installed’ error seen by machine operators.
             </p>
             <p>
-              In mid-2017 I found a film published on Wikileaks en- titled <i>„Collateral Murder”</i> - a black and white recor- ding made from the perspective of a weapon operator on a military plane shooting to civilians in Baghdad. It reminded me one experience - playing the <i>„Call of Duty 4: Modern Warfare”</i> game, more precisely: „De- ath from above” chapter. Ironically, the bombing that took place in the same year as the game’s premie- re. This was the beginning of the process that ended with this installation.
+              In mid-2017 I found a film published on Wikileaks entitled <i>„Collateral Murder”</i> - a black and white recording made from the perspective of a weapon operator on a military plane shooting to civilians in Baghdad. It reminded me one experience - playing the <i>„Call of Duty 4: Modern Warfare”</i> game, more precisely: „Death from above” chapter. Ironically, the bombing that took place in the same year as the game’s premiere. This was the beginning of the process that ended with this installation.
             </p>
             <p>
-              Initially I was thinking about creating a graphic chro- nicle of wars in the Middle East, but after number of sketches, consultations with professors and collec- ting various materials, I became more and more in- terested in the resemblance of what I saw on military recordings with how people experience gameplay in action games, set in the war realities. It was this su- perficial similarity of the reality of video game and the reality of war that became the main thread of the work presented here.
+              Initially I was thinking about creating a graphic chronicle of wars in the Middle East, but after number of sketches, consultations with professors and collecting various materials, I became more and more interested in the resemblance of what I saw on military recordings with how people experience gameplay in action games, set in the war realities. It was this superficial similarity of the reality of video game and the reality of war that became the main thread of the work presented here.
             </p>
             <p>
               Both graphic prints and the film are aimed at making it difficult to find the recipient of the border between the real and the fictitious.
@@ -43,7 +43,7 @@
               <div class="capition" style="font-size: 10px; float: left; text-align: left;">
                 <p style="linr-height: 1em;">
                   1. Frame from <i>„Apache Helicopter kills 20 Taliban”</i> video <br>
-                  2. Frame from <i>„Predator Drone Missile Strike – Mis- sile Cam” </i>video <br>
+                  2. Frame from <i>„Predator Drone Missile Strike – Missile Cam” </i>video <br>
                   3. Frame from <i>„[GRAPHIC] FLIR Footage of Taliban - Afghanistan 2012 (ORIGINAL)” </i>video <br>
                   4. Screenshot from <i>„Call of Duty 4: Modern Warfare” </i>game <br>
                   5. Screenshot from <i>„Arma II” </i>game <br>

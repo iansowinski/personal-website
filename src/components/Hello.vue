@@ -40,7 +40,7 @@
           <li>Instagram: <a href="https://instagram.com/iansowinski">@iansowinski</a></li>
           <li>Github: <a href="https://github.com/iansowinski">@iansowinski</a></li>
           <li>Tel: <a href="tel:+48692394228">+48 692 394 228</a></li>
-          <li>E-Mail: <a href="mailto:sowinj@gmail.com">sowinj@gmail.com</a></li>
+          <li>E-Mail: <a href="mailto:jan@sowinski.io">jan@sowinski.io</a></li>
         </ul>
       </div>
     </div>

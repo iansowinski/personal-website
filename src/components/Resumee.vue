@@ -23,7 +23,7 @@
         <ul>
           <li>🐦 Twitter: <a href="https://twitter.com/iansowinski" target="_blank">@iansowinski</a></li>
           <li>☎ Tel: <a href="tel:+48692394228" target="_blank">+48 692 394 228</a></li>
-          <li>📮 E-Mail: <a href="mailto:sowinj@gmail.com" target="_blank">sowinj@gmail.com</a> (<a target="_blank" href="http://pgp.mit.edu/pks/lookup?op=get&search=0xE65DA5E19E28E9EB">🔑 GPG Key</a>)</li>
+          <li>📮 E-Mail: <a href="mailto:jan@sowinski.io" target="_blank">jan@sowinski.io</a></li>
           <li class="gray fingerprint">B574 F8B1 8874 0543 E59F  2A9A E65D A5E1 9E28 E9EB</li>
         </ul>
         </p>
